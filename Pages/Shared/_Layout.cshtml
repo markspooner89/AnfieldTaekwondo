@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anfield Taekwondo</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div style="margin: 0; padding: 0">
+        <header>
+            <div style="background-color:#2d3436;">
+                <div style="max-width: 600px; margin: 0 auto; padding-left: 15px; padding-right: 15px;">
+                    <nav style="padding-top: 15px; padding-bottom: 15px">
+                        <span style="font-size: x-large; font-variant: small-caps; color: #d63031;">anfield</span><br />
+                        <span style="font-size:large; font-variant: small-caps; color: #ffffff">taekwondo</span>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div style="max-width: 600px; margin: 0 auto; padding-left: 15px; padding-right: 15px;">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
