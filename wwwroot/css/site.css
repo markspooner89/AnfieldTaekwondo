@@ -35,15 +35,3 @@ a:hover {
 h2 {
   font-size: 3rem;
 }
-
-.imgbox {
-  display: grid;
-  height: 100%;
-}
-
-.center-fit {
-  border-radius: 5px;
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
-}
