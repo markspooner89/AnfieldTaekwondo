@@ -1,0 +1,37 @@
+:root {
+  --dark: #2d3436;
+  --red: #d63031;
+  --light: #ffffff;
+}
+
+.font-highlighted {
+  color: var(--red);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: var(--red);
+}
+
+#main-header {
+  background-color: var(--dark);
+  color: var(--light);
+  margin-bottom: 2rem;
+}
+
+#main-header > .container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#main-header h1 {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
